@@ -1,0 +1,106 @@
+<div class="form-group edit-pop-out">
+	<div class="edit-content-pop-out container-fluid">
+		<div class="app-edit-header">
+			<center>
+				<h4>
+					Edit Profile
+				</h4>
+			</center>
+		</div>
+		<form id="crush-update-form" class="form-group">
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Update Your Username To A New One">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-user"></span>
+				</span>
+				<input type="text" name="ch-name" id="ch-name" class="form-control" placeholder="New Username" />
+			</div>
+			<br />
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Change Your Email To A More Current One">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-link"></span>
+				</span>
+				<input type="text" name="ch-email" id="ch-email" class="form-control" placeholder="New Email Address" />
+			</div>
+			<br />
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Change Your Password">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-lock"></span>
+				</span>
+				<input type="password" name="ch-password" id="ch-password" class="form-control" placeholder="New Password" />
+				<span class="input-group-addon">
+					<a href="Javascript:void(0)" id="ch-new-password">
+					  <span id="crush-eye" class="glyphicon glyphicon-eye-open"></span>
+					</a>
+				</span>
+			</div>
+			<br />
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Describe Yourself To Your Crush">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-pencil"></span>
+				</span>
+				<textarea type="text" name="ch-bio" id="ch-bio" class="form-control" placeholder="Short Description Of Yourself" ></textarea>
+			</div>
+			<br />
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Places You Frequently HangOut At Around Campus">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-pencil"></span>
+				</span>
+				<textarea type="text" name="ch-hangout" id="ch-hangout" class="form-control" placeholder="Places You Chill At Around Campus" ></textarea>
+			</div>
+			<br />
+			<div class="input-group input-group-md" data-toggle="tooltip" title="In Which University Residence Do You Stay At">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-home"></span>
+				</span>
+				<input type="text" name="ch-residence" id="ch-residence" class="form-control" placeholder="University Residence" />
+			</div>
+			<br />
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Course You're Enrolled In, e.g BSc Life Sciences 2nd Years">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-pencil"></span>
+				</span>
+				<input type="text" name="ch-course" id="ch-course" class="form-control" placeholder="In Which Course?">
+			</div>
+			<div class="color-crush">
+				<center>
+				<h4 class="crush-choose-color">
+					<span>
+						Choose Color Of Your UI
+					</span>
+				</h4>
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Choose A Color In Which Your Crushes Will See Your Profile">
+				<center>
+				<table class="crush-choose-color-table">
+					<tr>
+						<td class="crush-choose-color">
+							<center>
+								<input type="radio" name="ch-color" value="lightskyblue" />Blue
+							</center>
+						</td>
+						<td class="crush-choose-color">
+							<center>
+								<input type="radio" name="ch-color" value="hotpink" checked />Hotpink
+							</center>
+						</td>
+					</tr>
+				</table>
+			</div>
+			</center>
+		</div>
+		<br />
+			<div class="input-group input-group-md" data-toggle="tooltip" title="Enter Your Current Password To Save Changes">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-lock"></span>
+				</span>
+				<input type="password" name="password" id="password" class="form-control" placeholder="Current Password To Confirm Changes" />
+			</div>
+		<center>
+			<h3 id="Update-error"></h3>
+		  <button type="submit" id="crush-update-btn" class="btn btn-default crush-update-btn">Update</button>
+		  <a class="btn-default btn close-edit">
+		  	Close
+		  </a>
+	   </center>
+		</form>
+	</div>
+	</div>

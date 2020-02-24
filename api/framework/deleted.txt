@@ -1,0 +1,44 @@
+  	/*nameHeader(obj){
+  		let table = this.dom.createElement('table');
+  		let tr = this.dom.createElement('tr');
+  		table.appendChild(tr);
+  		table.setAttribute('class', 'app-header-table');
+  		let imgTd = this.dom.createElement('td');
+  		let infoTd = this.dom.createElement('td');
+  		let iconOptionsTd = this.dom.createElement('td');
+  		tr.appendChild(imgTd);
+  		tr.appendChild(infoTd);
+  		tr.appendChild(iconOptionsTd);
+  		imgTd.setAttribute('class', 'app-header-tab header-tab');
+  		infoTd.setAttribute('class', 'app-header-tab name-tab app-tab');
+  		iconOptionsTd.setAttribute('class', 'app-header-tab options-tab app-tab');
+
+  		var IconCenter = this.center();
+  		var IconTdSpan = this.span();
+  		var IconAnchor = this.anchor();
+  		IconAnchor.href = "Javascript:void(0)";
+  		IconTdSpan.setAttribute('class','glyphicon glyphicon-option-vertical');
+  		IconAnchor.appendChild(IconTdSpan);
+  		IconCenter.appendChild(IconAnchor);
+  		iconOptionsTd.appendChild(IconCenter);
+
+  		let Img = this.dom.createElement('img');
+  		Img.src = obj.imgUrl;
+  		Img.setAttribute('class', 'img-circle img-responsive');
+
+  		imgTd.appendChild(Img);
+
+  		var UrlAnchor = this.anchor();
+  		var UrlSpan = this.span();
+
+  		UrlSpan.innerHTML = `<span class="app-mid-text">${obj.username}</span><br/><span class="app-grey-text">@${obj.handle}</span>`;
+
+  		UrlSpan.setAttribute('class', 'app-mid-text');
+  		UrlAnchor.href = `http://localhost/yazz/usr/${obj.handle}`;
+  		UrlAnchor.appendChild(UrlSpan);
+  		infoTd.appendChild(UrlAnchor);
+
+  		this.headerTable = table;
+  		return this.headerTable;
+
+  	} */// End Of nameHeader()
