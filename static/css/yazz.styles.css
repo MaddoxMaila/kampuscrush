@@ -1,0 +1,1430 @@
+
+/* For Screens Of PCs and Laptops */
+@media only screen and (min-width: 700px){
+  .app-left-bar{
+    position: fixed;
+    left : 1%;
+    width: 100%;
+    height: auto;
+    width: 23%;
+  }
+  .app-block-post-explore{
+    width: 32%;
+  }
+  .post-viewport{
+    position: fixed;
+    background-color: transparent;
+    width: 48%;
+    height: auto;
+  }
+  .post-viewport-wrapper-lg{
+    background-color: transparent;
+  }
+
+  .app-comment-header-fixed{
+    position: fixed;
+    width: 33%;
+    background-color: #fff;
+  }
+
+  .comment-input-text,
+  .chats-input-text{
+    width: 100%;
+    height: 42px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    outline : 0;
+  }
+  .app-write-comment-viewport{
+    border-left : 0.03em solid lightgrey;
+    border-right : 0.03em solid lightgrey;
+    border-bottom : 0.03em solid lightgrey;
+    padding: .4%;
+    height: 47px;
+  }
+  .app-mobile-share{
+    display: none;
+  }
+
+  .profile-follow-wrapper{
+    width: 50%;
+  }
+
+  .app-user-images-body,
+  .app-profile-img{
+    width: 100%;
+    height: 250px;
+  }
+  .compose-box{
+    width: 100%;
+    height: 100px;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 0.06em solid lightgrey;
+  }
+  .app-empty-posts{
+    font-size: 250pt;
+    text-shadow: 8px 8px lightgrey;
+    color: #111;
+  }
+  .media-text{
+    width: 30px;
+    height: auto;
+    padding: 2px;
+    background-color: transparent;
+    color: #111;
+    font-weight: 550;
+    font-size: 9pt;
+  }
+   .audio-media-right{
+    width: 15%;
+  }
+  .audio-progress-bar{
+    position: relative;
+    top: 16px;
+    height: 4px;
+  }
+   .audio-icon-btn{
+    font-size: 22pt;
+   }
+   .grid-post-wrapper{
+    position:absolute;
+    width: 29.4%;
+    height: 100px;
+    padding-bottom: 1%;
+  }
+  .app-nav{
+  	width: 100%;
+  	height: 65px;
+  	border-bottom: 0.05em solid lightgrey;
+  	background-color: #ffffff;
+    padding-top: 1%;
+    box-shadow: 0.3px 0.3px 0.3px .3px #A2A2A2;
+  }
+  .app-post-wrapper{
+    border: 0.04em solid lightgrey;
+    padding: 1px;
+   }
+  .app-nav-table{
+  	width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  .app-nav-tab{
+    width: 20%;
+  }
+  .app-search-table{
+  	width: 60%;
+  }
+  .app-search-icon{
+  	padding: 6px;
+  }
+
+  .app-block-popout,
+  .app-block-popout-options{
+  	display: none; 
+    position: fixed; 
+    z-index: 9988; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+
+  }
+  .app-block-popout-content{
+    background-color: #fff;
+    border: 0.03em solid lightgrey;
+    width: 100%;
+    height: 620px;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    border-radius: 4px;
+    padding-right: 1%;
+    max-height: 660px;
+    transition-duration: 2000ms;
+    transition-property: all;
+    transition-timing-function: ease-in;
+  }
+  .options-pop{
+    background-color: #fff;
+    border: 0.02em solid lightgrey;
+    position: fixed;
+    top: 30%;
+    left: 32.5%;
+    width: 25%;
+    border-radius: 5px;
+  }
+  .modal-comment-body{
+    width: 70%;
+    height: 580px;
+    position: fixed;
+    top: 2%;
+    left: 20%;
+  }
+
+  .app-block-popout-content::-webkit-scrollbar {
+    width: 0.4em;
+  }
+ 
+  .app-block-popout-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+  }
+ 
+  .app-block-popout-content::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+  .app-media-body{
+  	width :100%;
+  	height: auto;
+    background-color: #fff;
+    border: 0.03em solid lightgrey;
+    box-shadow: 0.4px 0.4px 0.4px 0.4px #A2A2A2;
+    border-radius: 3px;
+  }
+  .app-profile-nav{
+    
+    width: 100%;
+    background-color: #FBFCFC;
+    height: 45px;
+    z-index: 999;
+  }
+  .app-user-info-body{
+    border: 0.05em solid lightgrey;
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 1%;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+  }
+
+  .app-modal-nav-top{
+    background-color: #fff;
+    border-bottom: 0.05em solid #1DA1F2;
+    position: fixed;
+    width : 39.5%;
+  }
+
+  .app-input-table{
+    width: 100%;
+    height: 40px;
+  }
+  
+
+  .app-compose-body{
+    background-color: #fff;
+    border: 0.03em solid lightgrey;
+    padding: .2%;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    border-radius: 3px;
+  }
+
+  .app-toast{
+    width: 23%;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    background-color: #5bc0de;
+    z-index: 9999 !important;
+    height: auto;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    border-radius: 2px;
+    display: none;
+    -webkit-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+  }
+
+/*  .app-fade{
+    -webkit-animation: fadein 0.5s;
+    animation: fadein 0.5s;
+  }*/
+
+  .toast-text{
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 600;
+  }
+
+  
+  .suggested-body,{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 1px;
+    border: 0.03em solid lightgrey;
+  }
+  .app-you-may-know,
+  .user-right-bar{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-left: 0.03em solid lightgrey;
+    border-right: 0.03em solid lightgrey;
+    border-top: 0.03em solid lightgrey;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    padding: .2%;
+    border-radius: 3px;
+  }
+  .suggested-header{
+    height: 42px;
+    width: 100%;
+  }
+  .app-suggest-table{
+    height: auto;
+    width: 100%;
+  }
+  .app-side-bar{
+    width: 32%;
+    height: auto;
+    position: fixed;
+    right: 5px;
+  }
+
+  .app-search-dropdown{
+    width: 31.62%;
+    height: auto;
+    position: fixed;
+    top: 7%;
+    left: 30%;
+    background-color: #fff;
+    border: 0.05em solid lightgrey;
+    z-index: 9999 !important;
+    display: none;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+    max-height: 500px;
+  }
+  .compose-info-show{
+    display: none;
+  }
+  .app-video-body,
+  .app-image-body,
+  .app-audio-body{
+    height: auto;
+    width: 100%;
+  }
+  /*video{
+    max-height: 550px;
+    min-height: 200px;
+    max-width: 99.9%;
+  }*/
+  .compose-btn{
+    width: 78%;
+  }
+
+   /* NEW STYLES!! */
+
+   .app-full-post-wrapper{
+
+     padding-bottom: .1%;
+     padding-left: .1%;
+     min-height: 480px;
+
+   }
+   .app-post-owner-header{
+
+     padding-bottom: 1%;
+     border-bottom: 0.03em solid lightgrey;
+
+   }
+   .comments-viewport-main{
+    border-left: 0.03em solid lightgrey;
+   }
+
+   .app-post-text{
+
+    font-weight: 450;
+
+  }
+
+  .app-notification-dropdown{
+    width: 31.62%;
+    height: auto;
+    position: fixed;
+    top: 11%;
+    right: 10%;
+    background-color: #fff;
+    border: 0.05em solid lightgrey;
+    z-index: 9999 !important;
+    display: none;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+    max-height: 580px;
+  }
+  .app-message-dropdown{
+    width: 31.62%;
+    height: auto;
+    position: fixed;
+    top: 11%;
+    right: 15%;
+    background-color: #fff;
+    border: 0.05em solid lightgrey;
+    z-index: 9999 !important;
+    display: none;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+    max-height: 580px;
+  }
+  .app-search-dropdown-xs{
+    display: none;
+  }
+
+  .app-explore-grid-item{
+    width: 30%;
+    height: auto;
+  }
+  .main-flick-body{
+    width: 70%;
+  }
+
+  /*  END OF NEW STYLES*/
+
+  @-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+} /* End */
+
+.notification-dropdown-header,
+.chats-dropdown-header,
+.app-search-header,
+.mobile-share-header{
+  padding: 2%;
+  background-color: #fff;
+}
+
+/* For Screens Of Mobile Phones */
+@media only screen and (max-width: 700px){
+  /* NEW STYLES */
+
+  .app-left-bar{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9000 !important;
+    display: none;
+  }
+
+  .main-flick-body{
+    width: 100%;
+  }
+
+  .mobile-share-control{
+    border-top: 0.03em solid lightgrey;
+    padding-top: 1%;
+  }
+  .mobile-share-control-btn{
+    width: 48%;
+  }
+  .profile-follow-wrapper{
+    width: 50%;
+  }
+  .home-top-nav-xs,
+  .app-user-info-nav{
+    height: 48px;
+    background-color: #fff;
+  }
+  .share-btn{
+    position: relative;
+    right: 12px;
+  }
+
+  .app-write-comment-viewport{
+
+    border-top: 0.03em solid lightgrey;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+
+  }
+
+  .app-input-wrapper{
+
+    border-top: 0.03em solid lightgrey;
+
+  }
+  .comment-input-text,
+  .chats-input-text,
+  .upload-text{
+    width: 100%;
+    height: 42px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    outline : 0;
+  }
+  .col-lg-7,
+  .col-lg-5{
+    overflow-x: hidden;
+  }
+
+  .app-post-text{
+
+    font-weight: 400;
+
+  }
+
+  .app-notification-dropdown,
+  .app-message-dropdown,
+  .app-search-dropdown-xs,
+  .app-mobile-share{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9000 !important;
+    display: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow-y: scroll;
+  }
+  .notifications-viewport{
+    overflow-y: scroll;
+  }
+
+
+  /* END OF NEW STYLES */
+  .app-user-images-body,
+  .app-profile-img{
+    width: 100%;
+    height: 250px;
+  }
+  .compose-box{
+    width: 95%;
+    height: 360px;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+  }
+  .header-text-tab{
+    text-align: center;
+  }
+  .app-suggest-table{
+    width: 100%;
+    height: auto;
+  }
+  .compose-btn{
+    width: 72.3%
+  }
+  .compose-info-show{
+    display: none;
+  }
+
+  .app-compose-body{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 0;
+    z-index: 9991 !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .app-trending{
+    background-color: #fff;
+  }
+  .app-empty-posts{
+    font-size: 140pt;
+    text-shadow: 8px 8px #111;
+  }
+  .media-text{
+
+    height: auto;
+    padding: 1%;
+    background-color: transparent;
+    color: #111;
+    font-weight: 550;
+    font-size: 8pt;
+  }
+   .audio-icon-btn{
+    font-size: 22pt;
+   }
+   .audio-media-right{
+    width: 28%;
+  }
+  .audio-progress-bar{
+    position: relative;
+    top: 15px;
+    height: 4px;
+  }
+
+  .app-post-wrapper{
+    border-bottom: 0.04em solid lightgrey;
+    padding: 2px;
+  }
+  .grid-post-wrapper{
+    position:absolute;
+    width: 29%;
+    height: 70px;
+    padding-bottom: 1%;
+  }
+   .app-nav{
+  	width: 100%;
+  	height: 30px;
+  	background-color: #fff;
+    border-top: 0.05em solid lightgrey;
+  }
+
+  .app-nav-table{
+  	width: 100%;
+    height: 45px;
+  }
+
+  .app-nav-tab{
+  	
+  }
+  .app-block-popout,
+  .app-block-popout-options{
+  	display: none; 
+    position: fixed; 
+    z-index: 9999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  .app-block-popout-content{
+    background-color: #fff;
+    border: 0.03em solid lightgrey;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top : 0;
+    bottom: 0;
+    z-index: 8888;
+    overflow-y: auto;
+  }
+  .options-pop{
+    background-color: #fff;
+    border: 0.02em solid lightgrey;
+    position: fixed;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    border-radius: 5px;
+  }
+
+  .modal-comment-body{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    top: 50%;
+    z-index: 8888;
+    overflow-y: auto;
+  }
+
+  .post-media-body{
+    padding-top: 10%;
+  }
+
+  .app-media-body{
+  	width :100%;
+  	height: 100%;
+    object-fit: contain;
+    background-color: #fff;
+    border-bottom: 0.07em solid lightgrey;
+    border-radius: 3px;
+  }
+  .app-user-info-body{
+    border: 0.05em solid lightgrey;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  }
+  .app-profile-nav{
+    width: 100%;
+    background-color: #fff;
+  }
+  .app-user-info-nav{
+    background-color: #fff;
+  }
+  .app-modal-nav-top{
+    background-color: #fff;
+    border-bottom: 0.05em solid lightgrey;
+    position: fixed;
+    width : 99%;
+  }
+  .app-input-table{
+    width: 100%;
+    height: 45px;
+  }
+  .app-input-wrapper{
+    width: 99%;
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    background-color: #fff;
+  }
+
+  .app-toast{
+    width: 90%;
+    position: fixed;
+    bottom: 60px;
+    left: 20px;
+    background-color: #5bc0de;
+    z-index: 9999 !important;
+    height: auto;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    display: none;
+    box-shadow: 3px 0px 3px 3px rgba(0,0,0,0.4);
+    -webkit-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+  }
+  .toast-text{
+    color: #fff;
+    font-size: 11pt;
+    font-weight: 600;
+  }
+
+  @-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 60px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 60px; opacity: 1;}
+}
+
+body{
+  overflow-x: hidden;
+}
+
+} /* End */
+
+/* App Animation Section*/
+
+  
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+   }
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+   }
+
+ /* End Of App Animation Section */
+
+/*
+  Universal Styles
+  Styles That Stay the Same Whether Its Mobile Or PC
+*/
+
+   #main,
+   #view,
+   .row{
+    overflow-x: hidden;
+   }
+   body{
+    background-color: #FBFCFC;
+    overflow-x: hidden;
+   }
+   .overrall{
+    overflow-x: hidden;
+   }
+   .app-post-wrapper,
+   .app-post-body-wrap,
+   .app-reaction-body{
+    background-color: #fff;
+   }
+   
+   .app-loader {
+    border: 5px solid #1DA1F2;
+    border-radius: 50%;
+    border-top: 5px solid snow;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+   }
+    
+   label{
+    cursor: pointer;
+   }
+  a{
+  	cursor: pointer;
+  	color: #111;
+  	text-decoration: none;
+    outline: 0;
+  }
+  a:active{
+  	color: #111;
+  	text-decoration: none;
+    outline: 0;
+  }
+  .app-post-body-wrap{
+  	width: 100%;
+  	height: auto;
+  	
+  }
+  .app-reaction-body{
+    padding: 1px;
+  }
+  .app-reaction-table,
+  .app-header-table{
+  	width: 100%;
+  	height: auto;
+  }
+  
+  .app-media-notifier{
+    border: 0.02em solid lightgrey;
+    width: 100%;
+    height: auto;
+  }
+
+  .app-profile-nav-table{
+    background-color: #fff;
+  }
+  .app-modal-nav-table,
+  .app-profile-nav-table,
+  .app-user-info-nav-table,
+  .app-notif-table,
+  .xs-search,
+  .app-nav-header-table,
+  .comment-body-table{
+  	width: 100%;
+  	height: 45px;
+  }
+  .app-modal-nav-table,
+  .app-modal-nav-top{
+    z-index: 9999;
+    background-color: #fff;
+  }
+  .app-user-info-nav,
+  .app-user-info-nav-table{
+    border-bottom: 0.05em solid lightgrey;
+  }
+
+  .like-react-tab,
+  .comment-react-tab{
+  	 width: 15%;
+  	 height: 35px;
+     padding: 1%;
+  }
+  .app-react-icon{
+    color: #8c8c89;
+  }
+  .img-tab{
+  	width: 10%;
+  	height: 35px;
+  }
+  .name-tab{
+  	width: 60%;
+  	height: 35px
+  }
+  .options-tab,
+  .app-modal-navback-tab,
+  .app-modal-nav-options,
+  .icon-tab,
+  .list-tab,
+  .grid-tab,
+  .saved-tab{
+  	width: 20%;
+  }
+  .back-tab,
+  .refresh-tab,
+  .load-more-tab{
+    width: 10%;
+  }
+  .app-media{
+  	height: 100%;
+  	width: 100%;
+  }
+  .app-react-icon{
+  	padding-right: 6px;
+  }
+  .app-icon-count{
+  	font-size: 10pt;
+  	color: #111;
+  	padding-bottom: 2px
+  }
+  .fire{
+    color: orange;
+  }
+  .app-comment-body{
+    padding-bottom: .5%;
+    padding-top: .5%;
+    width: 100%
+    height: auto;
+    border: 0.05em solid lightgrey;
+    border-radius: 2%;
+
+  }
+
+  .text-tab,
+  .notif-text-tab{
+    width: 80%;
+    padding: 0.5%;
+  }
+  .app-comment-table{
+    width: 100%;
+    height: 30px;
+  }
+  .date-text{
+    font-size: 08pt;
+    color: #1DA1F2;
+  }
+  .user-nav-btn{
+    font-size: 16pt
+  }
+
+  .user-name-tab{
+    width: 40%;
+  }
+  .app-user-info-nav{
+    border-bottom: 0.05em solid lightgrey;
+    background-color: #fff;
+  }
+  .app-user-images-body{
+    width: 100%;
+    height: 200px;
+  }
+  .app-full-user-info-table,
+  .app-full-user-info-body,
+  .app-follow-table,
+  .app-message-table,
+  .app-chats-table,
+  .app-grid-table,
+  .compose-info-show,
+  .file-info-table,
+  .change-body-wrapper,
+  .change-image-table,
+  .after-recording,
+  .app-trending-table{
+    width: 100%;
+    height: auto;
+  }
+
+  .empty-tab{
+    width: 40%;
+  }
+  .following-tab,
+  .followers-tab{
+    width: 15%;
+  }
+  .bio-icon-tab,
+  .search-tab,
+  .change-remove-tab,
+  .app-change-tab{
+    width: 10%;
+  }
+  .bio-tab{
+    width: 90%
+  }
+  .info-icon{
+    width: 5%;
+  }
+  .date-tab,
+  .icon-tab{
+    width: 10%;
+  }
+  .text-tab{
+    width: auto;
+  }
+  .app-chat-tab,
+  .app-chats-table{
+    padding: 2%;
+  }
+  .app-full-info-tab,
+  .app-user-info-nav-tab,
+  .app-header-tab,
+  .search-tab,
+  .app-change-tab{
+    padding:1.5%;
+  }
+  .app-follow-list,
+  .file-name-tab{
+    padding-left: 1%;
+  }
+  .message-chat-tab{
+    width: 76%;
+    height: auto;
+  }
+  .app-img-tab,
+  .list-follow-btn,
+  .img-message-tab,
+  .seen-chat-tab,
+  .rec-tab,
+  .media-tab,
+  .send-tab,
+  .special-nav-tab{
+    width: 12%;
+    height: 20px;
+  }
+  .header-tab{
+    width: 8%;
+    height: 20px;
+  }
+
+  .input-tab{
+    width: 65%;
+  }
+  .app-name-tab,
+  .list-follow-btn,
+  .file-name-tab{
+    width: 60%
+  }
+  .count-tr{
+    height: 40px;
+  }
+
+  .media-icons{
+    font-size: 15pt;
+  }
+  table{
+    background-color: #fff;
+  }
+
+  .app-message-bubble{
+
+    border : 0.05em solid lightgrey;
+    border-radius: 10px;
+    box-shadow: .4px .4px .4px .4px #f5f5f5;
+    background-color: #fff;
+    padding: 2%;
+    width: auto;
+    height: auto;
+   
+  }
+  .app-message{
+
+    padding: 2%;
+    background-color: transparent;
+    width: auto;
+    max-width: 75%;
+
+  }
+  .app-left-message{
+
+  }
+  .app-right-message{
+    position: relative;
+    left: 24%;
+  }
+  .app-message-table{
+    width: 130px;
+    height: auto;
+    border: 0.04em solid #111;
+  }
+
+  .app-small-img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .app-audio-canvas{
+    height: auto;
+    width: 100%;
+  }
+
+  .app-search-table{
+    border: 0.03em solid lightgrey;
+    border-radius: 3px;
+  }
+  .app-search-icon-tab{
+    width: 10%;
+  }
+  .app-search-tab-input{
+    width: 90%;
+  }
+  input[type="search"]{
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    outline : 0;
+  }
+
+  .app-grid-media{
+    width: 100%;
+    height: 100px;
+  }
+  .app-grid-tab{
+    width: 40%;
+    height: 40%;
+  }
+  .upload-form{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    display: none;
+  }
+  .comment-progress{
+    display: none;
+    height: 4px;
+  }
+
+  .progress-bar{
+    background-color: red;
+    width: 0%;
+    height: 4px;
+  }
+  .app-grey-text{
+    color: rgb(105,105,105);
+    font-size: 09pt; 
+  }
+
+  .app-small-text{
+    color: #111;
+    font-size: 09pt;
+  }
+
+  .app-bold-text{
+    color: #111;
+    font-size: 12pt;
+    font-weight: 700;
+  }
+
+  .app-mid-text{
+    color: #111;
+    font-size: 11pt;
+    font-weight: 400;
+  }
+
+  .app-max-text{
+    color: #111;
+    font-size: 14pt;
+    font-weight: 700;
+  }
+
+  
+  .app-user-follow-tab{
+    width: auto;
+    padding: 1%;
+  }
+  .app-modal-view{
+    padding-bottom: 2%;
+  }
+  .space-small{
+    width: 100%;
+    height: 5px;
+  }
+  .space-medium{
+    width: 100%;
+    height: 18px;
+  }
+  .space-large{
+    width: 100%;
+    height: 30px;
+  }
+  .app-post-text-body{
+    width: 100%;
+    height: auto;
+    padding: 0.5px;
+    padding-left: 10px;
+  }
+
+  .btn-default{
+    border: 0.05em solid #5bc0de;
+    font-weight: 600;
+    color: #5bc0de;
+  }
+  .btn-success{
+    border: 0.05em solid #5bc0de;
+    background-color: #5bc0de;
+    color: #FFF;
+    font-weight: 600;
+  }
+  .btn-info{
+    font-weight: 600;
+  }
+  .app-tag{
+    color: red;
+    font-weight: 570;
+  }
+  .app-hash{
+    color: #50A8B9;
+    font-weight: 570;
+  }
+  .list-follow-bio,
+  .list-follow-btn,
+  .notif-text-tab,
+  .last-tab,
+  .message-chat-tab,
+  .seen-chat-tab{
+    border-bottom: 0.08em solid lightgrey;
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+  .app-name{
+    padding-left: 2%;
+    color: #111;
+    font-family: "cursive", "sans-serif", "serif", "fantasy", "monospace";
+  }
+  .bio-info-tab{
+    padding-bottom: 3%;
+  }
+  .user-image-btn{
+    position: relative;
+    top: -40px;
+  }
+  .change-image-body{
+    display: none;
+  }
+  .media-info-body{
+    position: relative;
+    top: -22px;
+    left: 8px;
+    background-color: #111;
+    z-index: 70 !important;
+    width: auto;
+    height: 0px;
+  }
+  .compose-progress-bar{
+    display: none;
+    height: 0px;
+  }
+  .app-recording-timer{
+    padding-right: 5%;
+  }
+  .app-media-header{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 3%;
+  }
+  .app-trending-wrapper{
+    border-bottom: 0.05em solid lightgrey;
+  }
+
+  .media-header{
+    padding-top: .5%;
+    padding-right: 2%;
+    padding-bottom: .5%;
+    padding-left: 2%;
+
+  }
+  .comment-media{
+    padding-left: 3.5%;
+    padding-right: 2%;
+  }
+
+  /* End Of Universal Styles */
+
+
+  /*
+
+   NEW STYLES ON THE IMPROVED VERSION!!
+
+  */
+
+  .app-user-cardbody{
+    width: 100%;
+    height: 300px;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .app-usercard-cover{
+    height: 160px;
+    width: 100%;
+    border: 0.03em solid lightgrey;
+  }
+
+  .user-media-wrapper{
+
+    width: 95%;
+    height: auto;
+    border : 0.03em solid lightgrey;
+    box-shadow: 1px 1px 1px 1px #A2A2A2;
+    background-color: #fff;
+    position: relative;
+    left: 2%;
+    top : 60%;
+    z-index: 999 !important;
+    border-radius: 5px;
+
+  }
+
+  .follow-button-body{
+    padding-bottom: 2px;
+  }
+
+  .user-media-stats-wrapper{
+    width: 95%;
+    height: auto;
+    border : 0.03em solid lightgrey;
+    box-shadow: 1px 1px 1px 1px #A2A2A2;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    left: 2%;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+
+  .video-item{
+    padding-left: 22%;
+  }
+
+  .app-react-body{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+  }
+  .home-login-wrapper,
+  .home-user-wrapper,
+  .home-explore-wrapper{
+    background-color: #fff;
+    box-shadow: 0.4px 0.4px 0.4px 0.4px #A2A2A2;
+    border: 0.03em solid lightgrey;
+    border-radius: 3px;
+    height: auto;
+  }
+  .app-header{
+    border-bottom: 0.03em solid lightgrey;
+    z-index: 1050 !important;
+    
+  }
+
+  .app-audio-body{
+    border-bottom: 0.03em solid lightgrey;
+    border-top: 0.03em solid lightgrey;
+  }
+
+  .app-comment-header{
+
+    width: 100%;
+    border-bottom: 0.03em solid lightgrey;
+    padding: 2%;
+    background-color: #fff;
+    z-index: 999 !important;
+
+  }
+  .app-post-text-wrapper{
+
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+  }
+
+  .icon-text{
+    position: relative;
+    top: -5px;
+  }
+  .comments-view-header{
+    border-bottom : 0.03em solid lightgrey;
+  }
+  .comment-like{
+    position: relative;
+    bottom: 0;
+  }
+  .comments-viewport{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .app-attach{
+    position: relative;
+    left: 62.5%;
+  }
+  .app-message-dropdown{
+    padding: 1%;
+  }
+  .profile-user-info{
+    padding: 2%;
+    background-color: #fff;
+  }
+  .action-profile-nav{
+    border: 0.05em solid lightgrey;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: .4px .4px .4px .4px #A2A2A2;
+    width: 100%;
+  }
+  .nav-block-content{
+    width: 100%;
+    background-color: #fff;
+    padding: 2%;
+  }
+  /*.main-wrapper,
+  img{
+    border-radius: 5px;
+  }*/
+
+
+  /*.app-btn{
+    width: 8%;
+    height: 5%;
+    padding: 2%;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #111;
+    border: 0.03em solid lightgrey;
+  }*/
